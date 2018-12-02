@@ -1,8 +1,33 @@
-<div class="card" style="width: 18rem;">
+<!-- <div class="card" style="width: 18rem;">
     <img class="card-img-top" src=".../100px180/" alt="Card image cap">
     <div class="card-body">
       
       <img src="../../assets/images/article_view_cropped.png">
       <a (click)="this.createVideo()" class="btn btn-primary">Go somewhere</a>
     </div>
+</div> -->
+
+<div class="article-container row">
+
+  <div class="col-6">
+<nav>
+  <div class="nav nav-tabs" id="nav-tab" role="tablist">
+    <a class="nav-item nav-link active" id="nav-home-tab" data-toggle="tab" href="#nav-home" role="tab" aria-controls="nav-home" aria-selected="true">Text</a>
+    <a class="nav-item nav-link" id="nav-profile-tab" data-toggle="tab" href="#nav-profile" role="tab" aria-controls="nav-profile" aria-selected="false">View</a>
+  </div>
+</nav>
+<div class="tab-content" id="nav-tabContent">
+  <div class="tab-pane fade show active" id="nav-home" role="tabpanel" aria-labelledby="nav-home-tab">
+      <img src="../../assets/images/text_article.png" height="400"  >
+  </div>
+  <div class="tab-pane fade" id="nav-profile" role="tabpanel" aria-labelledby="nav-profile-tab">
+      <img src="../../assets/images/view_view_article.png" height="400"  >
+  </div>
 </div>
+</div>
+<div class="col-2 main-button">
+    <button (click)="this.createVideo()" class="btn btn-primary choose">Generate the video</button >
+</div>
+
+</div>
+

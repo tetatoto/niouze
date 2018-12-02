@@ -1,19 +1,19 @@
-<h1>Please fill the following form <span class="badge badge-secondary">TRY IT</span></h1>
+<h1 class="col-12 header-page">Please set your preferences in this form</h1>
 
-<form>
+<form class="col-6">
   <div class="form-group">
-    <label for="exampleInputEmail1">Email address</label>
-    <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email">
-    <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
+    <label for="exampleInputEmail1">Keywords about your business</label>
+    <input  class="form-control"  placeholder="Enter Keywords">
+    <small  class="form-text text-muted">For example : environment, sustainability, green, ...</small>
   </div>
   <div class="form-group">
-    <label for="exampleInputPassword1">Password</label>
-    <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Password">
+    <label for="exampleInputPassword1">URL of your Facebook feed so we can retrieve your work and get inspired</label>
+    <input   class="form-control" id="exampleInputPassword1" placeholder="Url">
   </div>
   <div class="form-group form-check">
     <input type="checkbox" class="form-check-input" id="exampleCheck1">
-    <label class="form-check-label" for="exampleCheck1">Check me out</label>
+    <label class="form-check-label" for="exampleCheck1">I allow V.story to access the data I set behind <Var></Var></label>
   </div>
   <button type="submit" class="btn btn-primary" (click)="this.onSubmit()">Submit</button>
 
-</form>
+</form> 
