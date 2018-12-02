@@ -1,30 +1,45 @@
-<div class="row">
-    <div class="card col-3" style="width: 18rem;">
-        <img class="card-img-top" src="" alt="Card image cap">
-        <div class="card-body">
-          <h5 class="card-title">Card title</h5>
-          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-          <a  (click)="this.goToArticle()" class="btn btn-primary">Go somewhere</a>
+<div class="container">
+
+    <!-- Page Heading -->
+    <h1 class="my-4">V-Story Ai found those article for you
+      <small>- Based on your preferences</small>
+    </h1>
+  
+    <div class="row">
+      <div class="col-lg-4 col-sm-6 mb-4">
+        <div class="card h-100">
+          <a href="#"><img class="card-img-top" src="../../assets/images/article1.png" ></a>
+          <div class="card-body">
+            <h4 class="card-title">
+                45 Simple Sustainable Habits You Need To Adopt
+            </h4>
+            <p class="card-text">If everyone in the US alone followed the following tips, we’d save billions just in energy costs. Habits you adopt now will show up as savings in your pocket. Here’s how ...</p>
+            <button (click)="this.goToArticle()" class="btn btn-primary choose">Choose this article</button >
+          </div>
         </div>
       </div>
-      
-      
-      <div class="card col-3" style="width: 18rem;">
-        <img class="card-img-top" src="" alt="Card image cap">
-        <div class="card-body">
-          <h5 class="card-title">Card title</h5>
-          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-          <a (click)="this.goToArticle()" class="btn btn-primary">Go somewhere</a>
+      <div class="col-lg-4 col-sm-6 mb-4">
+        <div class="card h-100">
+          <a href="#"><img class="card-img-top" src="../../assets/images/article2.png" ></a>
+          <div class="card-body">
+            <h4 class="card-title">
+                How to make sustainable, green habits second nature
+            </h4>
+            <p class="card-text">If you're reading this article, you're probably motivated to behave in environment-friendly, sustainable ways. Unfortunately, wanting to do the right thing isn't always enough. Here's a typical example of the problem: Knowing ...</p>
+            <button (click)="this.goToArticle()" class="btn btn-primary choose">Choose this article</button >
+          </div>
         </div>
       </div>
-      
-      
-      <div class="card col-3" style="width: 18rem;">
-        <img class="card-img-top" src="" alt="Card image cap">
-        <div class="card-body">
-          <h5 class="card-title">Card title</h5>
-          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-          <a (click)="this.goToArticle()" class="btn btn-primary">Go somewhere</a>
+      <div class="col-lg-4 col-sm-6 mb-4">
+        <div class="card h-100">
+          <a href="#"><img class="card-img-top" src="../../assets/images/article3.png" ></a>
+          <div class="card-body">
+            <h4 class="card-title">
+                What is Sustainable Living?
+            </h4>
+            <p class="card-text">Sustainable living is the practice of reducing your demand on natural resources by making sure that you replace what you use to the best of your ability. Sometimes that can mean not choosing to consume a product that is made using practices that don’t promote sustainability ...</p>
+            <button (click)="this.goToArticle()" class="btn btn-primary choose">Choose this article</button >
+          </div>
         </div>
       </div>
 </div>
